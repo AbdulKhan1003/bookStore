@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../public/Banner.png'
+import banner from '/Banner.png'
 function Banner() {
     return (
         <>
@@ -23,7 +23,7 @@ function Banner() {
                         <input type="text" className="grow" placeholder="Enter your Email to login" />
                     </label>
                     <div className="mt-6">
-                        <button className='btn btn-secondary'>Secondary</button>
+                        <button className='btn btn-secondary'>Get Started</button>
                     </div>  
                 </div>
                 <div className='md:order-2 order-1 w-full md:w-1/2'>
